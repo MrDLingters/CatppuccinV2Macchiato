@@ -1,2 +1,2 @@
-# CatppuccinV2Macchiato
-Catppuccin Macchiato theme for Windows 11
+# Catppuccin Macchiato theme for Windows 11
+
