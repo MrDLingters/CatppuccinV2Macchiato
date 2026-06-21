@@ -1,6 +1,30 @@
 /* Root Variables */
 :root {
     /*colors*/
+
+    /* Catppuccin Latte */
+    /* --background: #eff1f5;
+    --background2: #ccd0da;
+    --accent: #7c7f93;
+    --text: #4c4f69;
+    --accentText: #ccd0da;
+    --hover: #ccd0da;
+    --mutedBG: #e6e9ef;
+    --border: #ccd0da;
+    --subtext: #6c6f85; */
+
+    /* Catppuccin Frappé */
+    /* --background: #303446;
+    --background2: #414559;
+    --accent: #949cbb;
+    --text: #c6d0f5;
+    --accentText: #414559;
+    --hover: #414559;
+    --mutedBG: #292c3c;
+    --border: #414559;
+    --subtext: #a5adce; */
+
+    /* Catppuccin Macchiato */
     --background: #24273a;
     --background2: #363a4f;
     --accent: #939ab7;
@@ -10,6 +34,17 @@
     --mutedBG: #1e2030;
     --border: #363a4f;
     --subtext: #a5adcb;
+
+    /* Catppuccin Mocha */
+    /* --background: #1e1e2e;
+    --background2: #313244;
+    --accent: #9399b2;
+    --text: #cdd6f4;
+    --accentText: #313244;
+    --hover: #313244;
+    --mutedBG: #181825;
+    --border: #313244;
+    --subtext: #a6adc8; */
 
     --icons-font: "Segoe Fluent Icons";
     --icons-font-fallback: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
