@@ -269,7 +269,7 @@ widgets:
       bar_width: 4
       bar_type: "waves"
       framerate: 60
-      sleep_timer: 1
+      sleep_timer: 2
       hide_empty: true
   systray:
     type: "yasb.systray.SystrayWidget"
