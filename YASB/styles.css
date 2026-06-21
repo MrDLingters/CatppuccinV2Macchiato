@@ -14,6 +14,7 @@
     --icons-font: "Segoe Fluent Icons";
     --icons-font-fallback: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
     --system-font: "Segoe UI Variable", "Segoe UI";
+    --specialFont: "Segoe UI Variable", "Segoe UI";
     --border-radius: 16;
     --border-radius2: 14;
     --border-radius3: 16;
@@ -147,11 +148,8 @@
     font-weight: 600;
     padding-bottom: 2px;
 }
-/* Home Menu */
-/* .home-widget:hover {
-    background-color: var(--hover);
-} */
 
+/* Home Menu */
 .home-widget .icon {
     font-family: var(--system-font);
     font-size: var(--fontSize);
@@ -403,6 +401,7 @@
     color: var(--text);
 }
 
+
 .power-menu-compact .profile-info .profile-account-type {
     font-size: var(--fontSize);
     color: var(--text);
@@ -591,7 +590,9 @@
 /* Komorebi-active-layout */
 .komorebi-active-layout {}
 .komorebi-active-layout .widget-container {}
-.komorebi-active-layout .label {}
+.komorebi-active-layout .label {
+    font-family: var(--specialFont);
+}
 
 /* Komorebi-layout-menu */
 .komorebi-layout-menu {
@@ -871,41 +872,6 @@ Example: "Windows Media" becomes "windows-media" */
     height: 4px;
 }
 
-/* .media-menu .app-volume-container {
-    background-color: rgba(255, 255, 255, 0.05); 
-    padding: 8px 6px;
-    border-radius: 16px;
-    margin-left: 10px; 
-}
-.media-menu .app-volume-container .volume-slider::groove {
-    background: rgba(255, 255, 255, 0.1);
-    width: 2px;
-    border-radius: 3px;
-}
-.media-menu .app-volume-container .volume-slider::add-page {
-    background: white;
-    border-radius: 3px;
-}
-.media-menu .app-volume-container .volume-slider::groove:hover {
-    background: rgba(255, 255, 255, 0.1);
-    width:  6px;    
-    border-radius: 3px;
-}
-.media-menu .app-volume-container .volume-slider::sub-page {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
-}
-.media-menu .app-volume-container .mute-button,
-.media-menu .app-volume-container .unmute-button {
-    font-size: var(--iconSize);
-    color: #ffffff;
-    font-family: "Segoe Fluent Icons";
-    margin-top: 4px; 
-}
-.media-menu .app-volume-container .unmute-button {
-    color: #a0a0a0;
-} */
-
 /* Language-Widget */
 .language-menu {
     background-color: var(--background);
@@ -914,33 +880,14 @@ Example: "Windows Media" becomes "windows-media" */
     border-radius: var(--border-radius);
 }
 .language-menu .header {
-    /* font-family: var(--system-font);
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 2px;
-    padding: 12px;
-    background-color: var(--background2);
-    border: 1px solid var(--border);
-    border-radius: var(--border-radius); */
     color: transparent;
     padding-bottom: -12px;
 }
 .language-menu .footer {
-    /* font-family: var(--system-font);
-    font-size: var(--fontSize);
-    font-weight: 600;
-    padding: 12px;
-    margin-top: 2px;
-    border: 1px solid var(--border);
-    background-color: var(--background2);
-    border-radius: var(--border-radius); */
     color: transparent;
     padding-top: -12px;
 }
-/* .language-menu .footer:hover {
-    background-color: rgba(36, 36, 51, 0.6);
-    color: #fff;
-} */
+
 .language-menu .language-item {
     padding: 6px 12px;
     margin: 2px 4px;
@@ -1091,98 +1038,3 @@ Example: "Windows Media" becomes "windows-media" */
 	padding-top: 8px;
 }
 
-/* Preview Pane
-.quick-launch-popup .preview {
-	background: rgba(0, 0, 0, 0);
-	border-left: 1px solid rgba(255, 255, 255, 0.06);
-}
-.quick-launch-popup .preview .preview-text {
-	font-size: 13px;
-	color: rgba(255, 255, 255, 0.85);
-	padding: 8px 12px;
-	font-family: "Segoe UI";
-	background-color: rgba(255, 255, 255, 0.03);
-	border: none;
-}
-.quick-launch-popup .preview .preview-image {
-	background-color: rgba(255, 255, 255, 0.03);
-	padding: 8px 12px;
-}
-.quick-launch-popup .preview .preview-meta {
-	padding: 6px 12px;
-	border-top: 1px solid rgba(255, 255, 255, 0.06);
-	font-family: "Segoe UI";
-}
-.quick-launch-popup .preview .preview-meta .preview-title {
-	font-size: 14px;
-	font-weight: 600;
-	color: rgb(255, 255, 255);
-	font-family: "Segoe UI";
-	margin-bottom: 10px;
-	margin-left: -2px;
-}
-
-.quick-launch-popup .preview .preview-meta .preview-subtitle {
-	font-size: var(--fontSize);
-	color: rgba(255, 255, 255, 0.8);
-	font-family: "Segoe UI";
-	padding-bottom: 1px;
-} */
-
-/* Preview inline edit form (.preview.edit) */
-/* .quick-launch-popup .preview.edit .preview-title {
-	font-size: 13px;
-	font-family: "Segoe UI";
-	font-weight: 600;
-	color: #ffffff;
-	padding: 8px 12px 4px 12px;
-}
-.quick-launch-popup .preview.edit .preview-line-edit {
-	background: rgba(255, 255, 255, 0.06);
-	border: 1px solid rgba(255, 255, 255, 0.12);
-	border-radius: 4px;
-	color: #ffffff;
-	font-size: 13px;
-	font-family: "Segoe UI";
-	padding: 6px 8px;
-	margin: 0 12px;
-}
-.quick-launch-popup .preview.edit .preview-line-edit:focus {
-	border-color: rgba(255, 255, 255, 0.3);
-}
-.quick-launch-popup .preview.edit .preview-text-edit {
-	background: rgba(255, 255, 255, 0.06);
-	border: 1px solid rgba(255, 255, 255, 0.12);
-	border-radius: 4px;
-	color: #ffffff;
-	font-size: 13px;
-	font-family: "Segoe UI";
-	padding: 6px 8px;
-	margin: 0 12px;
-}
-.quick-launch-popup .preview.edit .preview-text-edit:focus {
-	border-color: rgba(255, 255, 255, 0.3);
-}
-.quick-launch-popup .preview.edit .preview-actions {
-	padding: 8px 12px;
-}
-.quick-launch-popup .preview.edit .preview-btn {
-	background: rgb(45, 46, 48);
-	border: none;
-	border-radius: 4px;
-	color: rgba(255, 255, 255, 0.8);
-	font-size: var(--fontSize);
-	font-family: "Segoe UI";
-	font-weight: 600;
-	padding: 4px 16px;
-}
-.quick-launch-popup .preview.edit .preview-btn:hover {
-	background: rgb(59, 60, 63);
-}
-.quick-launch-popup .preview.edit .preview-btn.save {
-	background: rgb(12, 81, 190);
-	color: #ffffff;
-}
-.quick-launch-popup .preview.edit .preview-btn.save:hover {
-	background: rgb(19, 90, 204);
-} */
