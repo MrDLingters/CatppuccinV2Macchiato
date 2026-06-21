@@ -197,8 +197,8 @@
 }
 .clock-popup.calendar .calendar-table,
 .clock-popup.calendar .calendar-table::item {
-    background-color: rgba(17, 17, 27, 0);
-    color: rgba(162, 177, 196, 0.85);
+    background-color: var(--background);
+    color: var(--text);
     font-family: var(--system-font);
     margin: 0;
     padding: 0;
@@ -496,7 +496,7 @@
     padding:6px 8px 6px 4px;
     margin: 2px 0;
     font-size: var(--fontSize);
-    border-radius: 4px;
+    border-radius: var(--border-radius2);
 }
 .audio-menu .audio-container .device.selected {
     background-color: var(--accent);
@@ -934,7 +934,7 @@ Example: "Windows Media" becomes "windows-media" */
 /* Launcher */
 /* Quick Launch Widget */
 .quick-launch-widget .icon {
-	font-size: 14px;
+	font-size: var(--fontSize);
 	padding: 0 4px;
     color: var(--text);
 }
