@@ -11,6 +11,7 @@
     --hover: #ccd0da;
     --mutedBG: #e6e9ef;
     --border: #ccd0da;
+    --redFlash: #d20f39;
     --subtext: #6c6f85; */
 
     /* Catppuccin Frappé */
@@ -22,8 +23,9 @@
     --hover: #414559;
     --mutedBG: #292c3c;
     --border: #414559;
+    --redFlash: #e78284;
     --subtext: #a5adce; */
-
+    
     /* Catppuccin Macchiato */
     --background: #24273a;
     --background2: #363a4f;
@@ -33,6 +35,7 @@
     --hover: #363a4f;
     --mutedBG: #1e2030;
     --border: #363a4f;
+    --redFlash: #ed8796;
     --subtext: #a5adcb;
 
     /* Catppuccin Mocha */
@@ -44,7 +47,20 @@
     --hover: #313244;
     --mutedBG: #181825;
     --border: #313244;
+    --redFlash: #f38ba8;
     --subtext: #a6adc8; */
+
+    /* Gruvbox Material Dark Soft */
+    /* --background: #32302F;
+    --background2: #45403D;
+    --accent: #DDC7A1;
+    --text: #DDC7A1;
+    --accentText: #32302F;
+    --hover: #5A524C;
+    --mutedBG: #252423;
+    --border: #3C3836;
+    --redFlash: #ea6962;
+    --subtext: #928374; */
 
     --icons-font: "Segoe Fluent Icons";
     --icons-font-fallback: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
@@ -53,6 +69,7 @@
     --border-radius: 16;
     --border-radius2: 14;
     --border-radius3: 16;
+    --border-radiusWallpapers: 10;
     --fontSize: 12px;
     --iconSize: 16px;
     --fontSizeLarge: 16px;
@@ -679,7 +696,7 @@
 }
 .wallpapers-gallery-image {
     border: 2px solid var(--border);
-    border-radius: 10;
+    border-radius: var(--border-radiusWallpapers);
 }
 .wallpapers-gallery-image:hover {
     border: 1px solid var(--accent);
