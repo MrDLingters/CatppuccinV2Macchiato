@@ -89,7 +89,7 @@ widgets:
   volume:
     type: yasb.volume.VolumeWidget
     options:
-      label: <span>{icon}</span>{level}
+      label: <span>{icon} </span>{level}
       label_alt: <span>{icon}</span>{level}
       tooltip: true
       volume_icons:
