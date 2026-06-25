@@ -62,13 +62,97 @@
     --redFlash: #ea6962;
     --subtext: #928374; */
 
+    /* Your Lie In April */
+    /* --background: #223343;
+    --background2: #314d6b;
+    --accent: #657c9f;
+    --text: #b7c2e9;
+    --accentText: #a9abc0;
+    --hover: #314d6b;
+    --mutedBG: #a9abc0;
+    --border: #a9abc0;
+    --redFlash: #657C9F;
+    --subtext: #a5adcb; */
+
+   /* Sousou no Frieren */
+    /* --background: #d4ddd0;
+    --background2: #A1B99C;
+    --accent: #6d9471;
+    --text: #1d2837;
+    --accentText: #e3eadf;
+    --hover: #A1B99C;
+    --mutedBG: #e3eadf;
+    --border: #A1B99C;
+    --redFlash: #6B8276;
+    --subtext: #909a9a; */
+
+    /* Everforest Dark Soft */
+    /* --background: #48584E;
+    --background2: #5D6B66;
+    --accent: #D3C6AA;
+    --text: #D3C6AA;
+    --accentText: #48584E;
+    --hover: #7A8478;
+    --mutedBG: #5D6B66;
+    --border: #5D6B66;
+    --redFlash: #5C3F4F;
+    --subtext: #9DA9A0; */
+
+    /* Monochrome */
+    /* --background: #18181b;
+    --background2: #3f3f42;
+    --accent: #b2b2b2;
+    --text: #e5e7eb;
+    --accentText: #18181b;
+    --hover: #7a7c7d;
+    --mutedBG: #3f3f42;
+    --border: #3f3f42;
+    --redFlash: #e5e7eb;
+    --subtext: #b2b2b2; */
+
+    /* Tokyo Night */
+    /* --background: #1a1b26;
+    --background2: #414868;
+    --accent: #9aa5ce;
+    --text: #c0caf5;
+    --accentText: #1a1b26;
+    --hover: #565f89;
+    --mutedBG: #414868;
+    --border: #414868;
+    --redFlash: #f7768e;
+    --subtext: #9aa5ce; */
+
+    /* Monochrome Light*/
+    /* --background: #e5e7eb;
+    --background2: #a4a4a4;
+    --accent: #b2b2b2;
+    --text: #18181b;
+    --accentText: #e5e7eb;
+    --hover: #a4a4a4;
+    --mutedBG: #a4a4a4;
+    --border: #a4a4a4;
+    --redFlash: #18181b;
+    --subtext: #b2b2b2; */
+
+    /* Monochrome Light RED*/
+    /* --background: #e5e7eb;
+    --background2: #a4a4a4;
+    --accent: #D71921;
+    --text: #18181b;
+    --accentText: #e5e7eb;
+    --hover: #898989;
+    --mutedBG: #a4a4a4;
+    --border: #a4a4a4;
+    --redFlash: #18181b;
+    --subtext: #b2b2b2; */
+
     --icons-font: "Segoe Fluent Icons";
     --icons-font-fallback: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
     --system-font: "Segoe UI Variable", "Segoe UI";
     --specialFont: "Segoe UI Variable", "Segoe UI";
     --border-radius: 16;
     --border-radius2: 14;
-    --border-radius3: 16;
+    --border-radius3: 12;
     --border-radiusWallpapers: 10;
     --fontSize: 12px;
     --iconSize: 16px;
@@ -226,7 +310,10 @@
     background-color: var(--hover);
     color: var(--text);
     border-radius: var(--border-radius2);
-    margin-left: 14px;
+    margin-left: 15px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 .home-menu .separator {
     max-height: 0px;
@@ -551,8 +638,8 @@
     border-radius: var(--border-radius2);
 }
 .audio-menu .audio-container .device.selected {
-    background-color: var(--accent);
-    color: var(--accentText);
+    background-color: var(--hover);
+    color: var(--text);
    
 }
 .audio-menu .audio-container .device:hover {
@@ -561,8 +648,8 @@
 }
 
 .audio-menu .audio-container .device.selected:hover {
-    background-color: var(--text);
-    color: var(--accentText);
+    background-color: var(--hover);
+    color: var(--text);
 }
 
 /* Toggle button for application volumes (if is enabled) */
@@ -657,6 +744,7 @@
     font-size: var(--fontSize);
     color: var(--text); 
     font-weight: 600;
+    margin: 1 1 1 1px;
 }
 .komorebi-layout-menu .menu-item-icon {
     color: var(--text);
@@ -669,8 +757,8 @@
 } 
 
 .komorebi-layout-menu .menu-item:hover {
-    background-color: var(--background2);
-    border-radius: var(--border-radius);
+    background-color: var(--hover);
+    border-radius: var(--border-radius3);
 } 
 
 .komorebi-layout-menu .separator {
@@ -952,12 +1040,12 @@ Example: "Windows Media" becomes "windows-media" */
     border-radius: var(--border-radius2);
 }
 .language-menu .language-item:hover {
-    background-color: var(--background2);
+    background-color: var(--hover);
     color: var(--text);
     border-radius: var(--border-radius2);
 }
 .language-menu .language-item.active:hover {
-    background-color: var(--background2);
+    background-color: var(--hover);
     border-radius: 4px;
     border-radius: var(--border-radius2);
 }
